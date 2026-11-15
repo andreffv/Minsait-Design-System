@@ -1,6 +1,98 @@
-/* PROVISÓRIO: definir a fonte oficial e respetiva licença. */
+/* Tipografia Minsait: ForFutureSans (WOFF2 com fallback WOFF).
+   Caminhos relativos a este ficheiro; ajustar se o CSS for copiado para outro local. */
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-Light.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-LightItalic.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-LightItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-Regular.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-RegularItalic.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-RegularItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-Medium.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-MediumItalic.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-Bold.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-BoldItalic.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-Black.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "ForFutureSans";
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+  src: url("../assets/fonts/Web Fonts/WOFF2/ForFutureSans-BlackItalic.woff2") format("woff2"),
+       url("../assets/fonts/Web Fonts/WOFF/ForFutureSans-BlackItalic.woff") format("woff");
+}
+
 :root {
-  --minsait-font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --minsait-font-family: "ForFutureSans", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   --minsait-font-size-base: 16px;
   --minsait-line-height-base: 1.5;
 }
