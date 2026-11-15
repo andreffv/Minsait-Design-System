@@ -1,0 +1,8 @@
+/* PROVISÓRIO: substituir pelos valores oficiais do manual de marca Minsait. */
+:root {
+  --minsait-color-primary: #000000;    /* PROVISÓRIO */
+  --minsait-color-secondary: #666666;  /* PROVISÓRIO */
+  --minsait-color-accent: #CC0000;     /* PROVISÓRIO */
+  --minsait-color-background: #FFFFFF;
+  --minsait-color-text: #111111;
+}

@@ -1,0 +1,6 @@
+/* PROVISÓRIO: definir a fonte oficial e respetiva licença. */
+:root {
+  --minsait-font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+  --minsait-font-size-base: 16px;
+  --minsait-line-height-base: 1.5;
+}
